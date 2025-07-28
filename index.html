@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KPU Kabupaten Musi Banyuasin</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="style/style.css" />
+
+  <!-- Vanta.js -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+
+  <!-- Vanta Init -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector("main").classList.add("loaded");
+
+      VANTA.BIRDS({
+        el: "#vanta",
+        backgroundAlpha: 0.0,
+        color1: 0xff7f50,
+        color2: 0xffffff,
+        birdSize: 1.5,
+        wingSpan: 20.0,
+        speedLimit: 4.0,
+        separation: 40.0,
+        alignment: 30.0,
+        cohesion: 20.0,
+        quantity: 3
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Background Vanta -->
+  <div id="vanta" aria-hidden="true"></div>
+
+  <main>
+    <!-- Header -->
+    <header>
+      <img src="img/profile.jpg" alt="Logo KPU Kabupaten Musi Banyuasin" loading="lazy" />
+      <h1>KPU Kabupaten Musi Banyuasin</h1>
+      <p class="tagline">
+        <a href="https://kab-musibanyuasin.kpu.go.id" target="_blank" rel="noopener noreferrer">
+          https://kab-musibanyuasin.kpu.go.id
+        </a>
+      </p>
+    </header>
+
+    <!-- Tombol Provinsi -->
+    <section id="buttons" aria-label="Daftar Provinsi">
+      <!-- Tombol Daerah (Contoh ACEH, copy-paste sesuai kebutuhan) -->
+      <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1B_xafnUl_M8FUJj1ruECXxFRcArw3223JqPTwCQNoo0/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>ACEH</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1Yp4AdQLSjv85-qhMY9fFaU6dxuJtjuuIAHr8nHPWssk/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>BALI</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1B22nG6ArptLEJPM7fzzpn5g8OS2UeFtRN_jX4X6mweQ/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>BANTEN</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1cO-EMPvB-3MOK_z8MXCrCrusJN5FdjN3mtsxdZxZwSU/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>BENGKULU</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1gI1HSPppW2v5Q9OOgY3GCfyiJX6ujrhpebwiXNdEFlg/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>DAERAH ISTIMEWA YOGYAKARTA</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1nrNvrN8EG_G1A2M9UDATuTUwMk0AADwzPOnWY8sflUc/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>DKI JAKARTA</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/19pCB3iEAh0weIhI7TUd10CXNC8tldeVeoTJ6600cZRE/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>JAMBI</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1k1X-5grZCu0ltQH3eqlJ9S0wgJ6IbZrXxGdTzpMVge4/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>JAWA BARAT</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1Rk69VnxhZo3ITJAjqilhFJTiJE0MAkevUKrN9A0HhUM/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>JAWA TENGAH</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/17eWNG0eDn621nNHgBrfEzh5I4yKOXrw15SruAQrcNng/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>JAWA TIMUR</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1eByUXYUxXaFVEOwjjDjoM5EE6tNqWp_iJXp5XVUeIoo/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KALIMANTAN BARAT</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1J905Wa7a-tvCga9zcNYWaGZMHU6p9J3Rz8NtS66WKAQ/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KALIMANTAN SELATAN</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1FGnz4fcIvmxzX4eWPn-ey63Me6BuhQv287fRhKgQcws/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KALIMANTAN TENGAH</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/17arBIfJF4e2mMe5ubhueXNkp2oHUBAHv-zD-b1zHNJw/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KALIMANTAN TIMUR</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1tykIsHRVPON2VxVimffdOKjOKPcBFFUDmFbvFUzSHBw/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KEPULAUAN BANGKA BELITUNG</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1fAs6g94uQfErsScXeths2-zjg8YalBKyiKmVbTwK5Dg/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>KEPULAUAN RIAU</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1W6kMz0wYb7a17cCvgokreyIVqn0tWFe3kKJSbBzY_ZQ/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>LAMPUNG</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1mm_PZtmYrexS8b7DenH88qw1MVQ5W-2bclwH0dHTT98/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>MALUKU</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/176GI5pKtPkN2-SzfymLTMCS-SoseqoQu0CybswJtn8A/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>NUSA TENGGARA BARAT</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1Vuo_T7UjdXN_JSdgN1ZYtL0G1SylqsvHpu1QX3X9v5k/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>NUSA TENGGARA TIMUR</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1lzsRSeCrFeMHLYbP11SU0P0McBSALALdLph988Nkf04/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>RIAU</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1wnOI4dpjSfLzJ_tjCXXJ2O84bLagg8rUB_-v7W0G1Q0/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>SULAWESI SELATAN</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1NnkbRGMXr2CRw8j803xhqg_HFxDAf9QDQCG6yGHN3KY/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>SULAWESI TENGAH</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1OeHqZZSfpzmtHK-4QgWRbacXbghPBjXLQ_kpn5MTp54/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>SUMATERA BARAT</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/1fB_u-0ELOKBMqkc4mGyu_Dd2JA6YJUssIEFg6_9_LQA/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>SUMATERA SELATAN</span>
+		</a>
+	  </div>
+	  <div class="btn">
+		<a href="https://docs.google.com/spreadsheets/d/12KOBkKg0QQ_dhToTO9GZFicIomePpysjAmZJd1sXblM/edit?usp=drive_link" target="_blank">
+		  <img src="img/profile.jpg" alt="Logo Profil" />
+		  <span>SUMATERA UTARA</span>
+		</a>
+	  </div>    
+      <!-- Tambah tombol lainnya -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 Copyright KPU All Rights Reserved
+    </footer>
+  </main>
+</body>
+</html>
